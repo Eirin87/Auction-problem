@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.auction__bid-button {
+  margin-left: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.auction__bid-input{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.create-auction__button {
+  margin: 10px;
+  width: 35%;
+  align-self: flex-end;
+}
+
+.create-auction__bid-input{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signup-login__container{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.signup-login__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-login__form-group{
+  padding-bottom: 10px;
+}
+
+.signup-login__button {
+  align-self: flex-end;
+}
+
+.home__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.new-auction__button{
+  width: 25%;
+  align-self: flex-end;
+}
+
+.auction-list__ul{
+  padding: 0px;
+}
+
+.auction-list__card{
+  margin: 20px;
+}
+
+.auction__container{
+  display: flex;
+}
+
+.auction-input {
+  margin-right: 10px;
+}
+
+.auction-button {
+  width: 15%;
 }
